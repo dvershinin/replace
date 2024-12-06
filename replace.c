@@ -17,6 +17,8 @@
    License: GNU General Public License v2
 */
 
+#define _GNU_SOURCE
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
