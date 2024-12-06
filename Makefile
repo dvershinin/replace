@@ -1,6 +1,6 @@
 CC = gcc
 # enable all warnings and use the C99 standard, inheriting external CFLAGS
-CFLAGS = -Wall -std=c99 $(CFLAGS)
+CFLAGS += -Wall -std=c99
 TARGET = replace
 
 all: $(TARGET)
